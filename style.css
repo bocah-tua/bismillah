@@ -1,0 +1,56 @@
+body{
+        padding-top: 30px;
+        background-image:   url(download.png);
+        background-position: to right;
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+        
+        .mycss{
+            background-color:#011445;
+            border-top-left-radius: 10px;
+        }
+        .navbar-brand{
+            color:white;
+            font-weight:700;
+            padding:10px;
+            font-size: 2em;
+            margin-left:5px
+        }
+        .navbar-brand >img{
+            width: 40px;
+            height:40px;
+            margin-right:10px;
+            margin-top:-9px;
+        }
+        .nav-link{
+            color:rgb(211, 246, 255);
+            padding:10px;
+            margin-left:65px;
+        }
+        .nav-link:hover{
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            transition: all .3s;
+            background-color: rgb(3, 102, 194);
+        }
+        .navbar-brand:hover{
+            color:white;
+        }
+        .navbar-toggler{
+            background-color:aliceblue;
+        }
+        .content1{
+            width: 50%;
+            height:500px;
+            margin-top:5em;
+            margin-left:8em;
+        }
+
+@media (min-width: 30px) and (max-width: 768px){
+    body{
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position-y: 7em;
+}
+}
